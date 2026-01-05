@@ -7,7 +7,7 @@ DATA_PATH = Path(__file__).parent.parent / "data" / "spotify_sample.json"
 
 
 def load_spotify_data():
-    db = sessionLocal()
+    db = SessionLocal()
 
     with open(DATA_PATH) as f:
         tracks = json.load(f)

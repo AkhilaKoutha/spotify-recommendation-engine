@@ -1,0 +1,14 @@
+export default function RootLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
+    return (
+        <html lang="en">
+            <body style={{ fontFamily: "sans-serif", margin: 20 }}>
+                <h1>🎵 Music Recommender</h1>
+                {children}
+            </body>
+        </html>
+    );
+}
