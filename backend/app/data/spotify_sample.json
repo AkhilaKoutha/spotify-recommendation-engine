@@ -1,0 +1,35 @@
+[
+    {
+        "id": "track_1",
+        "name": "Midnight Echoes",
+        "artist": "The Static Minds",
+        "audio_features": {
+            "energy": 0.42,
+            "valence": 0.31,
+            "danceability": 0.55,
+            "tempo": 108
+        }
+    },
+    {
+        "id": "track_2",
+        "name": "Neon Skies",
+        "artist": "City Pulse",
+        "audio_features": {
+            "energy": 0.78,
+            "valence": 0.67,
+            "danceability": 0.81,
+            "tempo": 124
+        }
+    },
+    {
+        "id": "track_3",
+        "name": "Soft Static",
+        "artist": "Echo Bloom",
+        "audio_features": {
+            "energy": 0.25,
+            "valence": 0.22,
+            "danceability": 0.41,
+            "tempo": 92
+        }
+    }
+]
